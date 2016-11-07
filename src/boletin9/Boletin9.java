@@ -45,6 +45,8 @@ public class Boletin9 {
             case 6:
                 Ejercicio6 ej6=new Ejercicio6();
                 ej6.NewListaEmpleados();
+                ej6.ej6(ej6.listaEmpleadosNombre, ej6.listaEmpleadosSalario);
+                break;
         }
     
     }

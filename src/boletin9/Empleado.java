@@ -11,9 +11,9 @@ package boletin9;
  */
 public class Empleado {
     String nombre;
-    float salario;
+    int salario;
     
-    public Empleado(String nom,float sal){
+    public Empleado(String nom,int sal){
         nombre=nom;
         salario=sal;
     }
