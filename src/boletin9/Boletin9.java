@@ -25,18 +25,26 @@ public class Boletin9 {
             case 1:
                 Ejercicio1 ej1=new Ejercicio1();
                 ej1.calcular();
+                break;
             case 2:
                 Ejercicio2 ej2=new Ejercicio2();
                 ej2.ej2();
+                break;
             case 3:
                 Ejercicio3 ej3=new Ejercicio3();
                 ej3.calcularArea();
+                break;
             case 4:
                 Ejercicio4 ej4=new Ejercicio4();
                 ej4.Ej4();
+                break;
             case 5:
                 Ejercicio5 ej5=new Ejercicio5();
                 ej5.Ej5();
+                break;
+            case 6:
+                Ejercicio6 ej6=new Ejercicio6();
+                ej6.NewListaEmpleados();
         }
     
     }
