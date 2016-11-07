@@ -34,6 +34,9 @@ public class Boletin9 {
             case 4:
                 Ejercicio4 ej4=new Ejercicio4();
                 ej4.Ej4();
+            case 5:
+                Ejercicio5 ej5=new Ejercicio5();
+                ej5.Ej5();
         }
     
     }
