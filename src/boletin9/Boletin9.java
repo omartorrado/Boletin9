@@ -31,6 +31,9 @@ public class Boletin9 {
             case 3:
                 Ejercicio3 ej3=new Ejercicio3();
                 ej3.calcularArea();
+            case 4:
+                Ejercicio4 ej4=new Ejercicio4();
+                ej4.Ej4();
         }
     
     }
