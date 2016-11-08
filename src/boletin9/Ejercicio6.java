@@ -23,7 +23,7 @@ public class Ejercicio6 {
             Empleado e1=new Empleado((String)("Empleado "+num),r.nextInt(5000));
                 listaEmpleadosNombre.add(e1.nombre);
                 listaEmpleadosSalario.add(e1.salario);
-                System.out.println(e1.nombre+":"+e1.salario+"€   ");
+                System.out.println(e1.nombre+":"+e1.salario+"€");
         }
     }
     
