@@ -19,22 +19,23 @@ public class Ejercicio6 {
     public void NewListaEmpleados(){
         int num=r.nextInt(30);
         System.out.println(num);
-        for (num=num;num>=0;num--){
+        for (num=num;num>=1;num--){
             Empleado e1=new Empleado((String)("Empleado "+num),r.nextInt(5000));
                 listaEmpleadosNombre.add(e1.nombre);
                 listaEmpleadosSalario.add(e1.salario);
-                System.out.println(e1.nombre+":"+e1.salario+"€");
+                System.out.println(e1.nombre+":"+e1.salario+"€   ");
         }
     }
     
     public void ej6(ArrayList a, ArrayList b){
         int menosDe1000=0;
         int entre1000y1750=0;
+        System.out.println(a.size()+" "+b.size());
         for (int count=a.size();count>0;count--){
-            if ((int)b.get(count)<1000){
+            if ((int)b.get(count-1)<1000){
                 menosDe1000++;
             }
-            else if ((int)b.get(count)>=1000&&(int)b.get(count)<=1750){
+            if (((int)b.get(count-1)>=1000)&&((int)b.get(count-1)<=1750)){
                 entre1000y1750++;
             }
             
