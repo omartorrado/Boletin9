@@ -49,9 +49,13 @@ public class Ejercicio5 {
                     System.out.print(numnext+",");
                     numnext=1;
                     counter3++;
+                    //incluimos el 0 y el primer 1 manualmente pq no cumplen 
+                    //la condicion del metodo del else
                     System.out.print(numnext+",");
                     }
                     else{
+                        //coje los dos ultimos valores y los suma para calcular
+                        //el siguiente valor
                         System.out.print((numnext+numlast)+",");
                         long numtemp=numnext+numlast;
                         numlast=numnext;
