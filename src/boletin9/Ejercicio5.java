@@ -49,6 +49,7 @@ public class Ejercicio5 {
                     System.out.print(numnext+",");
                     numnext=1;
                     counter3++;
+                    System.out.print(numnext+",");
                     }
                     else{
                         System.out.print((numnext+numlast)+",");
