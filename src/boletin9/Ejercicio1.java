@@ -37,6 +37,7 @@ public class Ejercicio1 {
             else if ((int)ar1.get(e)<0){
                 negativos++;
             }
+//      ver como se manejan exceptions y modificar esto en el futuro
 //            else if (Exception){
 //                System.out.println("el "+e+"º valor no es un numero entero");
 //                errores++;
