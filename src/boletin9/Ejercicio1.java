@@ -22,7 +22,15 @@ public class Ejercicio1 {
         for (int e=0;e<10;e++){
             //introduciendo los valores con un scanner
             //int n=sc1.nextInt();
-            int n=r1.nextInt();
+            //elige de forma aleatoria 0 o 1
+            int n=r1.nextInt(2);
+            //y a continuacion segun haya sido 0 o 1 genera un numero entre 0 y 99
+            //y lo pone en positivo o negativo
+            if (n==0){
+                n=r1.nextInt(100);
+            }
+            else n=-(r1.nextInt(100));
+            
             ar1.add(n);
         }
         System.out.println(ar1.size());
